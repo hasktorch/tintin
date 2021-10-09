@@ -84,8 +84,6 @@ library
 
 executable tintin
   main-is: Main.hs
-  other-modules:
-      Paths_tintin
   hs-source-dirs:
       app
   default-extensions:
@@ -116,8 +114,6 @@ executable tintin
 test-suite tintin-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
-  other-modules:
-      Paths_tintin
   hs-source-dirs:
       test
   default-extensions:
