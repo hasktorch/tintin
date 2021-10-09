@@ -61,6 +61,7 @@ library
       FlexibleInstances
       MultiParamTypeClasses
       TypeFamilies
+      CPP
   ghc-options: -F -pgmF requirepp
   build-depends:
       base >=4.7 && <5
@@ -101,6 +102,7 @@ executable tintin
       FlexibleInstances
       MultiParamTypeClasses
       TypeFamilies
+      CPP
   ghc-options: -F -pgmF requirepp -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
@@ -132,6 +134,7 @@ test-suite tintin-test
       FlexibleInstances
       MultiParamTypeClasses
       TypeFamilies
+      CPP
   ghc-options: -F -pgmF requirepp -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
