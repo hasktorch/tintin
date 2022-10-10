@@ -39,7 +39,7 @@ style info = toText . render $ do
   h3 ? fontSize (em 1.563)
 
   blockquote ? do
-    borderLeft solid (px 4) "#DDD"
+    borderLeft (px 4) solid "#DDD"
     paddingLeft (rem 1)
     color codeTextColor
 
